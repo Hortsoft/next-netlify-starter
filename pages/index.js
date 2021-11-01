@@ -15,9 +15,23 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-        <motion.div initial="hidden" animate="visible">
-          Get started by editing <code>pages/index.js</code>
-          </motion.div>
+        <motion.div initial="hidden" animate="visible" variants={{
+  hidden: {
+    scale: .8,
+    opacity: 0
+  },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: {
+      delay: .4
+    }
+  },
+}}>
+  <h1 className="title">
+    Wubba Lubba Dub Dub!
+  </h1>
+</motion.div>
         </p>
       </main>
 
