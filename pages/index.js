@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function Home() {
 
   const styles = {
-    background: "yellow",
+    background: "darkgreen",
     borderRadius: 30,
     width: 100,
     height: 100,
@@ -27,7 +27,7 @@ export default function Home() {
         
         <motion.div
     style={styles}
-    animate={{ scale: 10 }}
+    animate={{ scale: 8 }}
     transition={{ duration: 0.5 }}
   /></p>
       </main>
