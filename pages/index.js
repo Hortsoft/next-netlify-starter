@@ -27,9 +27,9 @@ export default function Home() {
         
         <motion.div
     style={styles}
-    animate={{ scale: 8 }}
+    
     transition={{ duration: 0.5 }}
-    animate={{ backgroundColor: ['hsl(0, 100, 50)', 'hsl(-120, 100, 50)'] }}
+    animate={{ scale: 8 , backgroundColor: ['hsl(0, 100, 50)', 'hsl(-120, 100, 50)'] }} 
   /></p>
       </main>
 
