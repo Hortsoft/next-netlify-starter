@@ -32,7 +32,7 @@ export default function Home() {
     animate={{ scale: 8 , backgroundColor: ['hsl(0, 100, 50)', 'hsl(-120, 100, 50)'] }} 
   /></p>
       </main>
-
+<pre>"I don't trust those trees. They seem kind of shady."</pre>
       <Footer />
     </div>
   )
