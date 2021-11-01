@@ -29,6 +29,7 @@ export default function Home() {
     style={styles}
     animate={{ scale: 8 }}
     transition={{ duration: 0.5 }}
+    animate={{ backgroundColor: ['hsl(0, 100, 50)', 'hsl(-120, 100, 50)'] }}
   /></p>
       </main>
 
