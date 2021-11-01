@@ -7,10 +7,10 @@ import { motion } from 'framer-motion';
 export default function Home() {
 
   const styles = {
-    background: "red",
+    background: "yellow",
     borderRadius: 30,
-    width: 50,
-    height: 50,
+    width: 100,
+    height: 100,
     margin: "auto"
   };
   return (
@@ -27,8 +27,8 @@ export default function Home() {
         
         <motion.div
     style={styles}
-    animate={{ scale: 3 }}
-    transition={{ duration: 0.25 }}
+    animate={{ scale: 10 }}
+    transition={{ duration: 0.5 }}
   /></p>
       </main>
 
