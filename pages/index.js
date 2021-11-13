@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import FunctionClick from '@components/FunctionClick' 
- 
+import ModalImage from "react-modal-image";
 
 export default function Home() {
 
