@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import ModalImage from "react-modal-image";
+import Head from "next/head";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import FunctionClick from "@components/FunctionClick";
 
 export default function Home() {
-
-   
   return (
     <div className="container">
       <Head>
@@ -15,12 +13,11 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
-        <p className="description"> </p>
+        <p className="description"> Hello World!!!</p>
         <FunctionClick />
-         
       </main>
-<pre>"I don't trust those tomatoes. They seem kind of round."</pre>
+      <pre>"I don't trust those tomatoes. They seem kind of round."</pre>
       <Footer />
     </div>
-  )
+  );
 }
